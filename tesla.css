@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mozilla Headline", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  font-weight: 550;
+}
+.navhead ul,
+.bar-icon ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+}
+.navhead ul li a,
+.bar-icon ul li a {
+  text-decoration: none;
+  color: black;
+}
+.down-arrow {
+  width: 40px;
+
+  position: absolute;
+  left: 37rem;
+  bottom: 0.5rem;
+}
+.down-arrow img {
+  height: 100%;
+  width: 100%;
+}
+.section {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center;
+}
+.box1 {
+  background-image: url("images/model-3.jpg");
+  position: relative;
+}
+.box1 .bottom-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 20rem;
+}
+
+.top-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5rem;
+}
+.top-text p {
+  font-size: 18px;
+  padding-top: 0.2rem;
+}
+.top-text h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.bottom-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 22rem;
+}
+button {
+  padding: 0.5rem 3rem;
+  border-radius: 3rem;
+  border: none;
+}
+.black-button {
+  color: white;
+  background-color: rgba(59, 54, 54, 0.82);
+}
+.white-button {
+  color: black;
+  background-color: white;
+}
+
+.box2 {
+  background-image: url("./images/model-y.jpg");
+}
+.box3 {
+  background-image: url("./images/model-s.jpg");
+}
+.box4 {
+  background-image: url("./images/model-x.jpg");
+}
+.box5 {
+  background-image: url("./images/solar-panel.jpg");
+}
+.box6 {
+  background-image: url("./images/solar-roof.jpg");
+}
+.box7 {
+  background-image: url("./images/accessories.jpg");
+}
